@@ -1,0 +1,114 @@
+/* Remove default margin from html element */
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+    width: auto;
+}
+
+.main-body{
+    height: 100vh;
+    width: 100%;
+    background-color: seashell;
+}
+
+.inner-body{
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    overflow-y: hidden;
+    margin-top: 0;
+
+}
+
+.inner-body h2{
+    font-size: 70px;
+    padding-top: 210px;
+    padding-left: 40px;
+}
+
+
+img{
+    padding-top: 50px;
+    padding-left: 40px;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.head-title{
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+
+.con{
+    padding-left: 30px;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.con img{
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+}
+
+.con p{
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: "SUSE Mono", sans-serif;
+    font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+   font-style: normal;
+}
+
+header{
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    background-color: seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 1000000000;
+}
+
+header .header-con{
+    display: flex;
+    background-color: seashell;
+}
+
+button{
+    /* padding: 10px 20px; */
+    padding-right: 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.check {
+    z-index: 1000000000;
+}
